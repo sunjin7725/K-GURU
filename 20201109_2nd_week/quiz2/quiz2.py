@@ -8,3 +8,9 @@ def solution(_array):
             _dict[i] = True
 
     return list(_dict.keys())[0]
+
+def solution2(_array):
+    sum = 0
+    for i in _array:
+        sum ^= i
+    return sum

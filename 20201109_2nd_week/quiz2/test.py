@@ -14,4 +14,4 @@ test_case = [
 class Test(unittest.TestCase):
     def test(self):
         for i in test_case:
-            self.assertEqual(quiz2.solution(i[0]), i[1])
+            self.assertEqual(quiz2.solution2(i[0]), i[1])
