@@ -1,0 +1,25 @@
+{
+  "name": "vue--basic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "serve -p 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kcnet-kguru/vue--basic.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kcnet-kguru/vue--basic/issues"
+  },
+  "homepage": "https://github.com/kcnet-kguru/vue--basic#readme",
+  "dependencies": {
+    "jquery": "^3.5.0",
+    "serve": "^11.3.0",
+    "vue": "^2.6.11"
+  }
+}
